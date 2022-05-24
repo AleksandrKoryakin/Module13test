@@ -1,4 +1,27 @@
-@media (max-width: 1024px) {
+@media(max-width: 1440px) {
+  .about-us__wrapper {
+    flex-direction: column;
+  }
+
+  .about-us__left {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .about-us__right {
+    width: 100%;
+  }
+
+  .footer__center {
+    width: 42.2%;
+  }
+
+  .footer__right {
+    width: 28.5%;
+  }
+}
+
+@media(max-width: 1200px) {
   .container {
     padding: 0 50px;
   }
@@ -30,6 +53,14 @@
     padding-left: 0;
   }
 
+  .hero {
+    min-height: 668px;
+  }
+
+  .hero__content {
+    padding-top: 160px;
+  }
+
   .hero__title {
     margin-bottom: 16px;
     font-size: 60px;
@@ -39,6 +70,11 @@
   .hero__descr {
     margin-bottom: 60px;
     font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__btn {
+    padding: 24px 30px;
   }
 
   .about-us__wrapper {
@@ -87,7 +123,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media(max-width: 950px) {
   .header__wrap {
     height: 69px;
   }
@@ -147,6 +183,32 @@
   .how-we-work__item-left {
     max-width: 100%;
   }
+}
+
+@media(max-width: 880px) {
+  .about-us__caption {
+    padding: 34px 40px;
+  }
+
+  .about-us__item {
+    padding: 35px 0 35px 25.45%;
+  }
+
+  .about-us__item-title {
+    width: 95%;
+  }
+
+  .about-us__item-text {
+    width: 85%;
+  }
+
+  .faq {
+    margin-bottom: 80px !important;
+  }
+
+  .faq__item:not(:first-child) {
+    height: 126px;
+  }
 
   .footer__wrap {
     flex-direction: column-reverse;
@@ -169,7 +231,7 @@
 
   .footer__center {
     margin-bottom: 50px;
-    width: 70.44%;
+    min-width: 70.44%;
   }
 
   .footer__nav {
@@ -177,7 +239,16 @@
   }
 }
 
-@media (max-width: 684px) {
+@media(max-width: 750px) {
+  .section-offset {
+    margin-bottom: 60px;
+  }
+
+  .section-offset__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
   .how-we-work__steps {
     margin-bottom: 16px;
     justify-content: space-between;
@@ -185,6 +256,33 @@
 
   .how-we-work__step:not(:last-child) {
     margin-right: 0;
+  }
+
+  .how-we-work__title {
+    margin-bottom: 16px;
+  }
+
+  .how-we-work__step {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .how-we-work__item-right {
+    margin-bottom: 16px;
+    max-width: 100%;
+    max-height: 160px;
+  }
+
+  .how-we-work__item-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .how-we-work__item-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 32px;
   }
 
   .footer__wrap {
@@ -227,7 +325,7 @@
 
   .form__control {
     margin-bottom: 16px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .footer__logo {
@@ -261,7 +359,45 @@
   }
 }
 
-@media (max-width: 575px) {
+@media(max-width: 650px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    min-height: 308px;
+  }
+
+  .hero__content {
+    padding: 60px 22px;
+  }
+
+  .hero__title {
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .hero__btn {
+    margin-left: calc(50% - 78px);
+    display: block;
+    padding: 14px 26px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hero__switch {
+    bottom: 15px;
+  }
+
   .about-us__text {
     margin-bottom: 8px;
     font-size: 14px;
@@ -310,51 +446,6 @@
   .about-us__caption-link:hover {
     color: #fff;
   }
-}
-
-@media (max-width: 480px) {
-  .hero {
-    min-height: 308px;
-  }
-
-  .hero__content {
-    padding: 60px 22px;
-  }
-
-  .hero__title {
-    margin-bottom: 6px;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .hero__descr {
-    margin-bottom: 32px;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-  }
-
-  .hero__btn {
-    margin-left: calc(50% - 78px);
-    display: block;
-    padding: 14px 26px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .hero__switch {
-    bottom: 15px;
-  }
-
-  .section-offset {
-    margin-bottom: 60px;
-  }
-
-  .section-offset__title {
-    font-size: 24px;
-    line-height: 29px;
-  }
 
   .about-us__item {
     padding: 61px 0 0 0;
@@ -388,6 +479,57 @@
     line-height: 28px;
   }
 
+  .faq__title {
+    margin-bottom: 16px;
+  }
+
+  .faq__item-title {
+    padding: 30px 0;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .faq__item svg {
+    min-width: 30px;
+    max-height: 30px;
+  }
+}
+
+@media(max-width: 450px) {
+  .logo-icon {
+    margin-right: 6px;
+    width: 19px;
+    height: 35px;
+  }
+
+  .logo-title {
+    width: 85px;
+    height: 21px;
+  }
+
+  .about-us__title {
+    margin-bottom: 20px;
+  }
+
+  .about-us__caption-text {
+    padding-top: 5px;
+  }
+
+  .about-us__item-title {
+    margin-bottom: 5px;
+  }
+
+  .how-we-work__title {
+    margin-bottom: 22px;
+  }
+
+  .how-we-work__item-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
   .how-we-work__item-btn {
     margin-right: 10px;
     padding: 11px 0;
@@ -407,60 +549,20 @@
     text-align: center;
     flex-grow: 1;
   }
-}
 
-@media (max-width: 320px) {
-  .container {
-    padding: 0 15px;
+  .faq {
+    margin-bottom: 55px !important;
   }
 
-  .logo-icon {
-    margin-right: 6px;
-    width: 19px;
-    height: 35px;
-  }
-
-  .logo-title {
-    width: 85px;
-    height: 21px;
-  }
-
-  .how-we-work__title {
-    margin-bottom: 16px;
-  }
-
-  .how-we-work__step {
-    font-size: 14px;
-    line-height: 17px;
-  }
-
-  .how-we-work__item-right {
-    margin-bottom: 16px;
-    max-width: 100%;
-    max-height: 160px;
-  }
-
-  .how-we-work__item-title {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .how-we-work__item-text {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 32px;
-  }
-
-  .faq__title {
-    margin-bottom: 16px;
-  }
-
-  .faq__item-title {
-    padding: 30px 0;
+  .faq__item:not(:first-child) {
     height: fit-content;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+  }
+
+  .form__textarea {
+    margin-bottom: 15px;
+  }
+
+  .form__btn {
+    margin-bottom: 19px;
   }
 }
